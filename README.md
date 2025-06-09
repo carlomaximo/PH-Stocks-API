@@ -9,9 +9,8 @@ A simple **API** that returns the ticker and its last traded price in a JSON for
 3. Create your own .env file with the following variable and format:
     ```env
     CMPY_IDS= {"DMCI": "188","AREIT": "679", "<ticker>": "<id>", ...}
-    - You can get the IDs by inspecting the [PSE company website](https://edge.pse.com.ph/companyDirectory/form.do). The IDs are the numbers in the URL when you click on a stock.
     ```
-    - You can get the IDs by inspecting the PSE website. The IDs are the numbers in the URL when you click on a stock.
+    - You can get the IDs by inspecting the [PSE company website](https://edge.pse.com.ph/companyDirectory/form.do). The IDs are the numbers in the URL when you click on a stock.
 4. Run the Flask app using `python app.py`.
 5. JSON is returned at `http://127.0.0.1:5000/<ticker>` in the format:
 ```json
