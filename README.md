@@ -1,7 +1,7 @@
 # PH Stocks API v.1
 
 ## What is this?
-A simple RESTful API that returns the ticker and its last traded price in a JSON format. Made in **Python** using **Flask**. This API is for **personal use only**.
+A simple RESTful API that, given a ticker, returns the ticker and its last traded price in a JSON format. Made in **Python** using **Flask** and **BeautifulSoup**. This API is for **personal use only**.
 
 ## Why
 idk seems handy
@@ -40,5 +40,5 @@ OR you could use Postman or your handy dandy browser
 
 ## Disclaimers
 - Again, this is for your **personal use only**. I keep seeing on Reddit that it's against PSE's ToS to scrape their website lol (never actually read their ToS in depth, what I saw though was that access is limited for personal, non-commercial use).
-- I made the .env workaround ~to make you work for it~ to enforce the 'personal use only' thing. If you're lazy though, you can just PM me and I'll send you my file. As of 8 June, I have about ten tickers out of 280+ companies. Not much, but it's something
+- I made the .env workaround ~to make you work for it~ to enforce the 'for your personal use only' thing. If you're lazy though, you can just PM me and I'll send you my file. As of 8 June, I have about ten tickers out of 280+ companies. Not much, but it's something
 - My liberal use of AREIT in my examples is not financial advice to buy AREIT lol
